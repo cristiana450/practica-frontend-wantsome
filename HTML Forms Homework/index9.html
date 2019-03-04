@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <form>
+        <label for "name">Nume</label>
+        <input type="text" name="name" id="name" value="" required placeholder="Popescu">
+
+        <br><br>
+
+        <label for "surname">Prenume</label>
+        <input type="text" name="name" id="surname" value="" required placeholder="Vasile">
+
+        <br><br>
+
+        <label for "gender">Sex</label><br><br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female
+        
+        <br><br>
+
+        <label for "id">Varsta</label>
+        <input type="number" name="age" id="age" min="18" max="85" step="1" value="">
+
+        <br><br>
+
+        <section class="country">
+                <span>Tara</span>
+        <select name="country">
+                <option value="None selected">Please select below</option>
+                <option value="Romania">Romania</option>
+                <option value="Japonia">Japonia</option>
+                <option value="Bulgaria">Bulgaria</option>
+            </select>
+        </section>
+
+        <br><br>
+    
+        <label for "cities">Oras</label>
+        <input list="cities" name="cities">
+            <datalist id="cities">
+                <option value="Arad">
+                <option value="Botosani">
+                <option value="Iasi">
+                <option value="Timisoara">
+                <option value="Bucuresti">
+            </datalist>
+
+            <br><br>
+
+        <label for="address">Adresa</label>
+        <input type="text", maxlength="200" id="address" name="address" value="">
+
+            <br><br>
+
+        <label for "zip code">Cod postal</label>
+        <input type="number" id="zip code" name="zip code" value="">
+
+            <br><br>
+
+        <label for "email">Adresa de email</label>
+        <input type="email" name="email" size="35" value="" id="email">
+
+            <br><br>
+
+        <textarea maxlength="200" minlength="2" rows="9" cols="30">Adaugati alte mentiuni...</textarea>
+
+            <br><br>
+        <label for "myFile">Adaugati fisier</label>
+        <input type="file" name="myFile" id="myFile">
+
+            <br><br>
+
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+        
+    </form>
+</body>
+</html>
