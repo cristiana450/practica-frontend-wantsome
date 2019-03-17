@@ -1,0 +1,26 @@
+li > a {
+    color: red;
+}
+div {
+    border: 1px solid black;
+}
+div > a {
+    color: green;
+}
+#thirdDiv > a {
+    color: #C55;
+}
+.firstH1 {
+    font-family: Verdana;
+}
+#firstH2 {
+    font-family: "Lato";
+}
+.image {
+    content:url(Trees_1920x1234.png);
+    width: 150px;
+    height: 150px;
+}
+p {
+    font-family: sans-serif;
+}
