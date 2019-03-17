@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form>
+            <label for "name">Full name*:</label> <br>
+            <input type="text" name="name" id="name" value="" required placeholder="FirstName LastName">
+
+        <br><br>
+
+        <label for "email">Email address*:</label> <br>
+        <input type="email" name="email" size="35" value="" id="email" required placeholder="EMAIL_ADDRESS">
+
+        <br><br>
+
+        <label for="tour">Select Tour package*:</label><br>
+        <select id="tour" name="tour" required>
+            <option value="goa">Goa</option>
+            <option value="premium">Premium</option>
+        </select>
+
+        <br><br>
+        <label for "arrival_date">Arrival date*:</label><br>
+        <input type="date" name="arrival_date" id="arrival_date" required>
+
+        <br><br>
+
+        <label for="">Number of persons*:</label><br>
+        <input type="number" required placeholder="UNKNOWN_TYPE" size="30">
+
+        <br><br>
+        <label for="avail">What would you want to avail?*</label><br>
+        <input name="avail" type="checkbox" value="boarding" id="avail" required>Boarding<br>
+        <input name="avail" type="checkbox"  value="fooding" id="avail" required>Fooding<br>
+        <input name="avail" type="checkbox" value="sight seeing" id="avail" required>Sight seeing<br>
+
+    <br>
+    <label for="discount coupon">Discount Coupon code:</label><br>
+    <input type="number" name="discount coupon" value="" id="discount coupon" placeholder="UNKNOWN_TYPE" max="9">
+    <br>
+    <p>Terms and conditions*</p>
+    <label for "policy">I agree</label>
+    <input type="radio" name="policy" id="policy" value="I agree" checked required>
+    <label for "policy">I disagree</label>
+    <input type="radio" name="policy" id="policy" value="I disagree" required>
+    <br><br>
+    <input type="submit" value="Complete reservation">
+
+
+        </form>
+    </body>
+</html>

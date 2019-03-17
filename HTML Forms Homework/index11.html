@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form>
+                <label for="site-search">Search for:</label><br>
+                <input type="search" id="site-search" name="search" value="chocolate cheesecake recipes" size="30">
+
+                <button>Search</button>
+
+                    <br>
+
+                <label for="name">Match:</label>
+
+                <input type="radio" id="any word" name="match" value="Any word" >
+                <label for="any word">Any word</label>
+
+                <input type="radio" id="all words" name="match" value="All words" checked>
+                <label for="all words">All words</label>
+
+                <input type="radio" id="exact phrase" name="match" value="Exact phrase">
+                <label for="exact phrase">Exact phrase</label><br>
+
+                <input type="checkbox" checked value="Sound-alike matching" name="match" id="sound-alike matching">
+                <label for="sound-alike matching">Sound-alike matching</label>
+
+                <br>
+
+                <label for="">Dated:</label>
+                <input type="radio" id="dated" name="date of recipes">
+                <select id="dated" name="date of recipes">
+                    <option value="Within the last year">Within the last year</option>
+                    <option value="Within the last month">Within the last month</option>
+                    <option value="within the last day">Within the last day</option>
+                </select><br>
+
+                <input type="radio" id="dated" name="date of recipes">
+                <label for="dated">From:</label>
+                <select id="dated" name="first date of recipes" >
+                        <option value="September">September</option>
+                </select>
+                <select id="dated" name="first date of recipes" >
+                        <option value="8">8</option>
+                </select>,     
+                <select id="dated" name="first date of recipes" >
+                        <option value="2009">2009</option>
+                </select><br>
+                <label for="dated">To:</label>
+                <select id="dated" name="last date of recipes">
+                        <option value="october">October</option>
+                </select>
+                <select id="dated" name="last date of recipes" >
+                        <option value="18">18</option>
+                </select>,      
+                <select id="dated" name="last date of recipes" >
+                        <option value="2011">2011</option><br>
+                </select>
+
+                <br>
+                <label for="first page of google">Within:</label>
+                <select id="first page of google" name="search" >
+                        <option value="description">Description</option><br>
+                        </select>
+                <br>
+                <label for="show results">Show:</label>
+                <select id="show results" name="show results">
+                    <option value="10">10</option>
+                </select>
+                <label for="results">results</label>
+                <select id="summary" name="summary">
+                        <option value="with">with</option>
+                    </select>
+                    <label for="summary">summaries</label><br>
+                    <label for="sort">Sort by:</label>
+                    <select id="sort" name="sort">
+                            <option value="relevance">relevance</option>
+                        </select>
+        </form>
+    </body>
+</html>
