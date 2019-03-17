@@ -1,0 +1,49 @@
+.container {
+    position: relative;
+    border: 3px solid turquoise;
+    box-sizing: border-box;
+  }
+  .nav {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    height: 150px;
+    border: 3px solid violet;
+  }
+
+  li {
+      color: violet;
+  }
+
+  .firstSection {
+    margin-left: 200px;
+    border: 3px solid yellow;
+    height: 50px;
+    padding: 1%;
+  }
+
+  .secondSection {
+      margin-left: 200px;
+      border: 3px solid yellow;
+      height: 100px;
+      padding: 1%;
+  }
+
+  .thirdSection {
+      margin-left: 200px;
+      border: 3px solid yellow;
+      height: 50px;
+      padding: 1%;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    border: 3px solid green;
+  }
+  body {
+    margin-bottom: 100px;
+  }
