@@ -1,0 +1,94 @@
+body {
+    background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    display: grid; 
+    margin: 0 auto;
+    width: 50%;
+    font-size: 40px;
+    grid-gap: 20px;
+}
+
+.firstSection {
+    background: url("./appetizers.jpg") no-repeat;
+    grid-column: 1/ span 2; 
+    grid-row: 1 / 2;
+    width: 400px; 
+    height: 400px;
+    position: relative;
+}
+
+.secondSection {
+    background: url("./Breads4.jpg") no-repeat;
+    grid-column: 3 / span 2;
+    grid-row: 1 / 2;
+    background-size: 710px; 
+    position: relative;
+
+}
+
+.thirdSection {
+    background: url("./drinks.jpg") no-repeat;
+    grid-column: 1 / span 2;
+    grid-row: 2/ 3;
+    width: 400px; 
+    height: 400px;
+    position: relative;
+
+}
+
+.fourthSection {
+    background: url("./fast.jpg") no-repeat;
+    grid-column: 3/ span 2; 
+    grid-row: 2/ 3;
+    width: 400px; 
+    height: 400px;
+    position: relative;
+
+}
+
+.appetizers {
+    color: white; 
+    background-color: rgba(255, 255, 255, 0.59);
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.breads {
+    color: white; 
+    background-color: rgba(255, 255, 255, 0.59);
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.drinks {
+    color: white; 
+    background-color: rgba(255, 255, 255, 0.59);
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.fast {
+    color: white; 
+    background-color: rgba(255, 255, 255, 0.59);
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
